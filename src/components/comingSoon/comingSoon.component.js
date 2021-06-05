@@ -10,8 +10,8 @@ export default class comingSoon extends Component {
    
       return (
         <div className="comingSoonBody">
-          <div class="logoHolder">
-           <img className="logo" src={logo}></img>
+          <div className="logoHolder">
+           <img className="logo" src={logo} alt="SpectraDx Logo"></img>
            <br></br>
            <span className="logoText">Coming Soon</span>
           </div>
