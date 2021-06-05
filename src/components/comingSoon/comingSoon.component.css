@@ -1,0 +1,45 @@
+.comingSoonBody{
+    height: 100vh;
+    position: relative;
+}
+
+.waves{
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+}
+
+.wave1{
+    position: absolute;
+    bottom: 0;
+    z-index: 1;
+    height: 40vh;
+}
+
+.wave2{
+    position: absolute;
+    bottom: 0;
+    z-index: 2;
+    height: 40vh;
+    opacity: 0.8;
+}
+
+.logoHolder{
+    position: absolute;
+    top:0;
+    width:100%;
+    height: 50vh;
+    text-align: center;
+    padding: 1rem;
+}
+
+.logo{
+    height:90%;
+    max-width: 100%;
+    margin-bottom: 4rem;
+}
+
+.logoText{
+    font-weight: bold;
+    font-size: 1.5rem;
+}
