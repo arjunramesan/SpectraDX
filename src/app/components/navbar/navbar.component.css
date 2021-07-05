@@ -1,0 +1,28 @@
+.bg-light {
+    background-color: rgb(255,255,255,0.8)!important;
+    backdrop-filter: blur(3px);
+}
+
+.navbar-light .navbar-nav .nav-link {
+    color: rgba(0,0,0,.8);
+    font-weight: 600;
+}
+
+.nav-link:hover{
+    border-bottom: solid 2px orange;
+}
+
+.navbar{
+    position: fixed;
+    width: 100%;
+    top:0;
+    z-index: 999;
+}
+
+.navbar-brand img{
+    height: 1.8rem;
+}
+
+.navbar-expand-lg .navbar-collapse {
+    justify-content: flex-end;
+}
